@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+.logo-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.particles {
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
